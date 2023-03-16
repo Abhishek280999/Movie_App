@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movile App</title>
+    <link rel="stylesheet" href="/movieapp.css">
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    /> 
+</head>
+<body>
+    <header>
+        <i class="fab fa-earlybirds"></i></i><span> This is Movie</span> </i>
+      </header>
+    <i class="fas fa-search"></i>
+   <div class="feature">
+    <h1 ><i class="fas fa-video"></i> Popular Movies</h1>
+    <input type="text" id="name" oninput="debounce(displayMovie,3000)" placeholder="Movie name....."/>
+    </div>
+   <div class="details">
+   </div> 
+   <div id="searchResult"></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="/movieapp.js"></script>
+</html>
