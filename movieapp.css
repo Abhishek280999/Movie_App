@@ -70,7 +70,8 @@ header {
 .details > div > div > img {
   width: 270px;
   height: 350px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .details > div > div > img:hover {
   transform: scale(1.1);
@@ -84,6 +85,7 @@ header {
 }
 .div2 {
   white-space: nowrap;
+  margin-left: 10px;
   width: 270px;
   overflow: hidden;
   text-overflow: ellipsis;
